@@ -53,7 +53,17 @@ const BarChart = ({ isDashboard = false }) => {
       padding={0.3}
       valueScale={{ type: "linear" }}
       indexScale={{ type: "band", round: true }}
-      colors={{ scheme: "nivo" }}
+      colors={({ id, data }) => {
+        if (id === 'Projections') {
+          // Very light blue for "Projections"
+          return '#b3d4fc'; // Light blue
+        } else if (id === 'Actuals' && data[id] < data['Projections']) {
+          // Darker blue for "Actuals" if it's lower than "Projections"
+          return '#A8C5DA'; // Dark blue for down
+        } else {
+          return '#CFDFEB'; // Default blue for "Actuals"
+        }
+      }}
       borderColor={{
         from: "color",
         modifiers: [["darker", "1.6"]],

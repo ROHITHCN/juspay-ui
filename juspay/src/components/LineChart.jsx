@@ -10,7 +10,7 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
   const data = [
     {
       id: "Current Week",
-      color: "hsl(220, 70%, 50%)",
+      color: "#A8C5DA",
       data: [
         { x: "Jan", y: 10 },
         { x: "Feb", y: 8 },
