@@ -1,5 +1,10 @@
 # Juspay Dashboard Project
 
+## Live Demo
+
+You can access the live version of this project [here](https://bespoke-cassata-f5a689.netlify.app/).
+
+
 ## Overview
 
 This is a React-based dashboard project built using various libraries for data visualization, UI components, and routing. The dashboard offers an intuitive interface, a responsive design, and customizable components for a better user experience.
@@ -67,3 +72,5 @@ Below are the major dependencies used in this project(use react version 18.2.0 a
    ```bash
    npm run build
    ```
+
+
