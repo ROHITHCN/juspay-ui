@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-You can access the live version of this project [here](https://bespoke-cassata-f5a689.netlify.app/).
+You can access the live version of this project [here](https://juspay-saas-dashboard.netlify.app/).
 
 
 ## Overview
